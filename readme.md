@@ -1,3 +1,3 @@
-# meganehack
+# meganehack logo branch
 
-website for megane hackathon
+logo and ideas for megane hackathon
