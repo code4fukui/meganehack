@@ -12,6 +12,11 @@ $spacing-unit:     30px;
 }
 
 @import
+        "variables",
+        "mixins",
         "base",
+        "header",
+        "content",
+        "footer",
         "syntax-highlighting"
 ;
