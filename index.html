@@ -1,23 +1,39 @@
 ---
 layout: default
+tags: home
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  {% include banner.html %}
+  {% include links.html %}
 
+  <h1 class="page-heading">お知らせ</h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}</span>
+          {{ post.title }}
+        </a>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <h1 class="page-heading">テーマ</h1>
+  <p>
+    ハッカソンとは、ハック(コンピュータを使って開発をすること)とマラソンを掛けあわせた造語で、
+    プログラマーやデザイナー、
+    プランナーなどが<strong>短時間で何かを開発するイベント</strong>の事です。
+  </p>
+  <p>
+    メガネハッカソンでは、その名の通りメガネに関する開発をします。
+    <strong>メガネ自体</strong>を作ってもよし、
+    メガネ型の最新デバイスで動く<strong>アプリやゲーム</strong>を作ってもよし。
+    めがねフェスの会場で新しいメガネを楽しく創りあげましょう！
+  </p>
+  <p class="detail_link">
+    <a href={{ "/about/" | prepend: site.baseurl }}>
+      詳細な開催概要はこちら
+    </a>
+  </p>
 </div>

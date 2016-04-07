@@ -1,25 +1,26 @@
 <header class="site-header">
   <a class="site-title" href="{{ site.baseurl }}/">
     <img src="{{ "/img/logo.png" | prepend: site.baseurl }}"
-         alt="{{ site.title }}">
+         alt="{{ site.title }}"
+         class="{{ page.tags }}">
   </a>
   <nav class="main-navigation">
     <ul>
       <li>
-        <a href="{ "/about/" | prepend: site.baseurl }}">
-          <img src="{{ "/img/menu_about_active.png" | prepend: site.baseurl }}"
+        <a href={{ "/about/" | prepend: site.baseurl }}>
+          <img src={{ "/img/menu_about_active.png" | prepend: site.baseurl }}
                alt="開催概要">
         </a>
       </li>
       <li>
-        <a href="{ "/posts/" | prepend: site.baseurl }}">
-          <img src="{{ "/img/menu_posts_active.png" | prepend: site.baseurl }}"
+        <a href={{ "/posts/" | prepend: site.baseurl }}>
+          <img src={{ "/img/menu_posts_active.png" | prepend: site.baseurl }}
                alt="おしらせ">
         </a>
       </li>
       <li>
         <a href="">
-          <img src="{{ "/img/menu_attend_active.png" | prepend: site.baseurl }}"
+          <img src={{ "/img/menu_attend_active.png" | prepend: site.baseurl }}
                alt="参加登録">
         </a>
       </li>
