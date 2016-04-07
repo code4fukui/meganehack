@@ -1,15 +1,46 @@
 ---
 layout: page
-title: About
+title: 開催概要
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+# 提供可能なモノ
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+![メガネ型デバイス]({{ "/img/eyeglasses_device.png" | prepend: site.baseurl }})
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+## メガネ型デバイス
+
+MOVERIO BT-200、Vuzix M100、Sony Eyeglass
+
+
+![メガネ型デバイス作成用3Dデータ]({{ "/img/3d_data.png" | prepend: site.baseurl }})
+
+## メガネ型デバイス作成用3Dデータ
+
+メガネ型デバイス専用メガネフレーム「neo-plug」に結合可能な、
+メガネ型デバイスを3Dプリンタを使って作るための3Dデータ
+
+# イベント詳細
+
+| 開催情報 | |
+| --- | --- |
+| 会場 | 鯖江市嚮陽会館 |
+| 開催日時 | 2016.05.25(土) 10:00 - 18:30 |
+| 参加方法 | conpassにて事前参加登録  もしくは当日参加※ |
+
+※ 当日運営効率化のため、事前参加登録をお願いしております
+
+| タイムテーブル | |
+| --- | --- |
+| 09:30 | 開場 |
+| 10:00 - 10:15 | 開会・企画説明 |
+| 10:15 - 10:40 | 講演(株式会社jig.jp  福野 泰介氏) |
+| 10:40 - 17:10 | 自由時間 |
+| 17:10 - 18:00 | 成果発表 |
+| 18:00 - 18:30 | 懇親会・立食・メガネフェスを楽しむ |
+
+<p class="detail_link">
+  <a href="{{ "/about/" | prepend: site.baseurl }}">
+    詳細な開催概要はこちら
+  </a>
+</p>
