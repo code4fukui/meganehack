@@ -1,0 +1,53 @@
+.site-header {
+  background-color: $theme_dark_green;
+  .site-title {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    img {
+      display: inline-block;
+      max-width: 293px;
+      max-height: 90px;
+      width: 60%;
+      margin: 70px 0;
+      &.home {
+        max-width: 686px;
+        max-height: 211px;
+        margin: 120px 0;
+        width: 95%;
+      }
+    }
+  }
+  .main-navigation {
+    ul {
+      display: block;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    li {
+      display: inline-block;
+      margin: 0 30px;
+      a {
+        display: block;
+        width: 123px;
+        height: 44px;
+        img {
+          visibility: hidden;
+        }
+      }
+      &:hover a img {
+        visibility: visible;
+        opacity: 1.0;
+      }
+      &:nth-child(1) {
+        background-image: url('../img/menu_about.png');
+      }
+      &:nth-child(2) {
+        background-image: url('../img/menu_posts.png');
+      }
+      &:nth-child(3) {
+        background-image: url('../img/menu_attend.png');
+      }
+    }
+  }
+}

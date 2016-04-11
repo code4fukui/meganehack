@@ -1,0 +1,203 @@
+.page-content {
+  .wrapper {
+    max-width: $max_width;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  h1:not(.page-heading) {
+    font-size: 30px;
+    margin: 50px 0 0;
+    &:before {
+      content: '';
+      display: inline-block;
+      margin: 0 10px 0 0;
+      height: 30px;
+      width: 30px;
+      position: relative;
+      top: 3px;
+      background-color: $theme_dark_green;
+    }
+  }
+
+  h2 {
+    font-size: 30px;
+    margin: 30px 0 0;
+  }
+
+  table {
+    font-family: $not_makinas;
+    font-size: 18px;
+    width: 100%;
+    margin: 20px 0;
+  }
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 2px solid $theme_dark_green;
+  }
+
+  tr td:nth-child(1),
+  tr th {
+    background-color: $theme_dark_green;
+    color: #ffffff;
+  }
+
+  tr:not(:last-child) td:nth-child(1),
+  tr th {
+    border-bottom: 2px solid #ffffff;
+  }
+}
+
+.page-heading {
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 0 30px;
+  span {
+    display: inline-block;
+    border-bottom: 2px solid $theme_dark_green;
+    &:before {
+      content: '';
+      display: block;
+      margin: 10px auto 20px;
+      height: 28px;
+      width: 86px;
+      background-image: url('../img/glasses_accent.png');
+    }
+  }
+}
+
+.post-list {
+  font-family: $makinas;
+  border: 2px solid $theme_dark_green;
+  padding: 5px;
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 5px 5px 11px;
+    border-bottom: 1px solid $theme_dark_green;
+    &:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 26px;
+      width: 26px;
+      position: relative;
+      top: 6px;
+      background-image: url('../img/arrow_block.png');
+    }
+    .post-meta {
+      display: inline-block;
+      width: 80px;
+      font-size: 16px;
+    }
+  }
+}
+
+.post-meta {
+  font-family: $makinas;
+}
+
+.post-page-meta {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.post-content {
+  ul {
+    list-style: disc;
+    margin-left: 30px;
+    ul {
+      list-style: circle;;
+      margin-left: 30px;
+      ul {
+        list-style: disc;
+        margin-left: 30px;
+        ul {
+          list-style: circle;;
+          margin-left: 30px;
+          ul {
+            list-style: disc;
+            margin-left: 30px;
+            ul {
+              list-style: circle;;
+              margin-left: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+  code {
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 16px;
+  }
+  pre {
+      background-color: #f0f0f0;
+      display: block;
+      padding: 20px;
+  }
+}
+
+.detail-link {
+  text-align: right;
+  a {
+    font-family: $makinas;
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    top: 6px;
+    background-image: url('../img/arrow_block.png');
+  }
+}
+
+.banner {
+  max-width: $max_width;
+  margin: 60px auto 0;
+  @media (max-width: 699px) {
+    width: 100%;
+  }
+}
+
+.links {
+  margin: 10px auto 40px;
+  text-align: center;
+  ul {
+    font-size: 0;
+  }
+  li {
+    margin-bottom: 10px;
+    @media (max-width: 699px) {
+      display: block;
+      width: 100%;
+    }
+  }
+  li:nth-child(1) {
+    @include links(#55acee);
+  }
+  li:nth-child(2) {
+    @include links(#3b5998);
+    margin: 0 6.5px 10px;
+    @media (max-width: 699px) {
+      margin: 0 0 10px;
+    }
+  }
+  li:nth-child(3) {
+    @include links(#00a4de);
+  }
+}

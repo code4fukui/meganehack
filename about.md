@@ -38,9 +38,3 @@ MOVERIO BT-200、Vuzix M100、Sony Eyeglass
 | 10:40 - 17:10 | 自由時間 |
 | 17:10 - 18:00 | 成果発表 |
 | 18:00 - 18:30 | 懇親会・立食・メガネフェスを楽しむ |
-
-<p class="detail_link">
-  <a href="{{ "/about/" | prepend: site.baseurl }}">
-    詳細な開催概要はこちら
-  </a>
-</p>
