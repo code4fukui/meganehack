@@ -1,0 +1,25 @@
+<div class="links">
+  <ul>
+    <li>
+      <a href="javascript:window.open('https://twitter.com/intent/tweet?hashtags=meganehack&ref_src=twsrc&url={{ page.url | prepend: site.url }}&tw_p=tweetbutton&text={{ page.title }}
+      ', 'NewWindow', 'width=600,height=600');"
+         target="_blank">
+        <img src="{{ "/img/link_twitter.png" | prepend: site.baseurl }}"
+             alt="ツイート">
+      </a>
+    </li>
+    <li>
+      <a href="javascript:window.open('http://www.facebook.com/share.php?u={{ page.url | prepend: site.url }}', 'NewWindow', 'width=600,height=600');"
+         target="_blank">
+        <img src="{{ "/img/link_facebook.png" | prepend: site.baseurl }}"
+             alt="シェア">
+      </a>
+    </li>
+    <li>
+      <a href="javascript:window.open('http://b.hatena.ne.jp/add?url={{ page.url | prepend: site.url }}', 'NewWindow', 'width=720,height=600');">
+        <img src="{{ "/img/link_hatena.png" | prepend: site.baseurl }}"
+             alt="はてブ">
+      </a>
+    </li>
+  </ul>
+</div>

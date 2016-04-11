@@ -1,0 +1,39 @@
+h1, h2, h3,
+.site-footer p,
+.site-footer p strong,
+.site-footer p a, {
+  font-family: $makinas;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+p,
+p strong,
+p a {
+  font-family: $not_makinas;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
+  img:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 699px) {
+  .page-content, .site-footer {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

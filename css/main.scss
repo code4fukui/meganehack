@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$spacing-unit:     30px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@import
+        "sanitize",
+        "variables",
+        "mixins",
+        "base",
+        "header",
+        "content",
+        "footer",
+        "syntax-highlighting"
+;
