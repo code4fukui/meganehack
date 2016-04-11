@@ -26,4 +26,14 @@ ul {
 a {
   text-decoration: underline;
   color: #000000;
+  img:hover {
+    opacity: 0.6;
+  }
+}
+
+@media (max-width: 699px) {
+  .page-content, .site-footer {
+    width: 90%;
+    margin: 0 auto;
+  }
 }

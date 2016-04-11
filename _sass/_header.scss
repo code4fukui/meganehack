@@ -37,6 +37,7 @@
       }
       &:hover a img {
         visibility: visible;
+        opacity: 1.0;
       }
       &:nth-child(1) {
         background-image: url('../img/menu_about.png');
