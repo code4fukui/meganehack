@@ -26,7 +26,7 @@ MOVERIO BT-200、Vuzix M100、Sony Eyeglass
 | --- | --- |
 | 会場 | 鯖江市嚮陽会館 |
 | 開催日時 | 2016.05.25(土) 10:00 - 18:30 |
-| 参加方法 | conpassにて事前参加登録  もしくは当日参加※ |
+| 参加方法 | [connpass](http://codeforfukui.connpass.com/event/30182/)にて事前参加登録  もしくは当日参加※ |
 
 ※ 当日運営効率化のため、事前参加登録をお願いしております
 
