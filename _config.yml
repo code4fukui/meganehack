@@ -4,7 +4,7 @@ description: >
   メガネを自由にハックするイベントです。5/28(土) 10時より、
   メガネの聖地である鯖江市の嚮陽会館にて開催！
 baseurl: ""
-url: "http://fukui.opendata.cc/meganehack/"
+url: "http://fukui.opendata.cc/meganehack"
 
 # Build settings
 markdown: kramdown
