@@ -1,3 +1,29 @@
+@font-face {
+  font-family: 'Makinas-Web';
+  src: url('../font/Makinas-Scrap-5.otf') format('opentype');
+}
+
+*,
+.site-footer p,
+.site-footer p strong,
+.site-footer p a, {
+  font-family: 'Makinas', 'Makinas-Web', Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif1;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+p,
+p strong,
+p a {
+  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }

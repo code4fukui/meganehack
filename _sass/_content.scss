@@ -1,0 +1,29 @@
+.page-content {
+  .wrapper {
+    max-width: $max_width;
+    margin: 0 auto;
+  }
+}
+
+.banner {
+  max-width: $max_width;
+  margin: 60px auto 0;
+}
+
+.links {
+  margin: 10px auto 40px;
+  text-align: center;
+  ul {
+    font-size: 0;
+  }
+  li:nth-child(1) {
+    @include links(#55acee);
+  }
+  li:nth-child(2) {
+    @include links(#3b5998);
+    margin: 0 6.5px;
+  }
+  li:nth-child(3) {
+    @include links(#00a4de);
+  }
+}
