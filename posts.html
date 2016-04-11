@@ -5,7 +5,7 @@ layout: default
 <div class="home">
   <h1 class="page-heading">お知らせ</h1>
   {% include links.html %}
-  <ul class="post-list">
+  <ul class="posts">
     {% for post in site.posts %}
         <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -14,7 +14,7 @@ layout: default
         </h1>
         <p><span class="post-meta">{{ post.date | date: "%Y.%m.%d" }}</span></p>
         {{ post.excerpt }}
-        <p class="detail_link">
+        <p class="detail-link">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             続きを読む
           </a>

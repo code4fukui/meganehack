@@ -8,7 +8,7 @@ tags: home
   {% include banner.html %}
   {% include links.html %}
 
-  <h1 class="page-heading">お知らせ</h1>
+  <h1 class="page-heading"><span>お知らせ</span></h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -19,7 +19,7 @@ tags: home
       </li>
     {% endfor %}
   </ul>
-  <h1 class="page-heading">テーマ</h1>
+  <h1 class="page-heading"><span>テーマ</span></h1>
   <p>
     ハッカソンとは、ハック(コンピュータを使って開発をすること)とマラソンを掛けあわせた造語で、
     プログラマーやデザイナー、
@@ -31,7 +31,7 @@ tags: home
     メガネ型の最新デバイスで動く<strong>アプリやゲーム</strong>を作ってもよし。
     めがねフェスの会場で新しいメガネを楽しく創りあげましょう！
   </p>
-  <p class="detail_link">
+  <p class="detail-link">
     <a href={{ "/about/" | prepend: site.baseurl }}>
       詳細な開催概要はこちら
     </a>

@@ -1,13 +1,8 @@
-@font-face {
-  font-family: 'Makinas-Web';
-  src: url('../font/Makinas-Scrap-5.otf') format('opentype');
-}
-
-*,
+h1, h2, h3,
 .site-footer p,
 .site-footer p strong,
 .site-footer p a, {
-  font-family: 'Makinas', 'Makinas-Web', Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif1;
+  font-family: $makinas;
   font-size: 20px;
   line-height: 35px;
 }
@@ -15,7 +10,7 @@
 p,
 p strong,
 p a {
-  font-family: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+  font-family: $not_makinas;
   font-size: 18px;
   line-height: 30px;
 }
@@ -26,4 +21,9 @@ img {
 
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #000000;
 }

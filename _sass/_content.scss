@@ -3,6 +3,76 @@
     max-width: $max_width;
     margin: 0 auto;
   }
+
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.page-heading {
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 0 30px;
+  span {
+    display: inline-block;
+    border-bottom: 2px solid $theme_dark_green;
+    &:before {
+      content: '';
+      display: block;
+      margin: 10px auto 20px;
+      height: 28px;
+      width: 86px;
+      background-image: url('../img/glasses_accent.png');
+    }
+  }
+}
+
+.post-list {
+  font-family: $makinas;
+  border: 2px solid $theme_dark_green;
+  padding: 5px;
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 5px 5px 11px;
+    border-bottom: 1px solid $theme_dark_green;
+    &:hover {
+      background-color: rgba(0,0,0,0.1);
+    }
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 26px;
+      width: 26px;
+      position: relative;
+      top: 6px;
+      background-image: url('../img/arrow_block.png');
+    }
+    .post-meta {
+      display: inline-block;
+      width: 80px;
+      font-size: 16px;
+    }
+  }
+}
+
+.detail-link {
+  text-align: right;
+  a {
+    font-family: $makinas;
+  }
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    position: relative;
+    top: 6px;
+    background-image: url('../img/arrow_block.png');
+  }
 }
 
 .banner {

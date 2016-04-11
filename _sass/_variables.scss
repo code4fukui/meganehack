@@ -2,4 +2,13 @@
 $theme_dark_green : #004122;
 
 // width
-$max_width : 700px;
+$max_width: 700px;
+
+// font
+@font-face {
+  font-family: 'Makinas-Web';
+  src: url('../font/Makinas-Scrap-5.otf') format('opentype');
+}
+
+$makinas: 'Makinas', 'Makinas-Web', Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+$not_makinas: Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif1
