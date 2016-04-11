@@ -1,4 +1,15 @@
 <header class="site-header">
+  <nav class="sp-main-navigation">
+    <div class="menu-icon">
+      <img src="{{ "/img/menu_sp.png" | prepend: site.baseurl }}" alt="メニュー"
+           onclick="document.getElementsByClassName('sp-main-navigation-list')[0].classList.toggle('visible');">
+    </div>
+    <ul class="sp-main-navigation-list">
+      <li><a href="{{ "/about/" | prepend: site.baseurl }}">開催概要</a></li>
+      <li><a href="{{ "/posts/" | prepend: site.baseurl }}">おしらせ</a></li>
+      <li><a href="">参加登録</a></li>
+    </ul>
+  </nav>
   <a class="site-title" href="{{ site.baseurl }}/">
     <img src="{{ "/img/logo.png" | prepend: site.baseurl }}"
          alt="{{ site.title }}"
