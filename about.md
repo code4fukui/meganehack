@@ -34,6 +34,11 @@ MOVERIO BT-200、Vuzix M100、Sony Eyeglass
 メガネの聖地でもあり、オープンデータの聖地でもある鯖江市を始めとして、
 いろんな自治体から公開されているオープンデータ
 
+* [DATA.GO.JP](http://www.data.go.jp/)
+* [福井県オープンデータライブラリ](http://www.pref.fukui.lg.jp/doc/toukei-jouhou/opendata/)
+* [データシティ鯖江](http://data.city.sabae.lg.jp/)
+* [Open Data Platform](http://sparql.odp.jig.jp/)
+
 
 ![こどもパソコン IchigoJam]({{ "/img/ichigojam.png" | prepend: site.baseurl }})
 
