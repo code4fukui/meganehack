@@ -177,6 +177,31 @@
   @media (max-width: 699px) {
     width: 100%;
   }
+  .outside-banners {
+    @include clearfix();
+    li {
+      @media (min-width: 700px) {
+        display: block;
+        max-width: 50%;
+        float: left;
+      }
+      @media (max-width: 699px) {
+        display: block;
+        width: 100%;
+        text-align: center;
+        a {
+          display: block;
+          width: 100%;
+          &.banner-fes {
+            background-color: #dd1206;
+          }
+          &.banner-messe {
+            background-color: #000000;
+          }
+        }
+      }
+    }
+  }
 }
 
 .links {
