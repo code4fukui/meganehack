@@ -52,6 +52,30 @@ MOVERIO BT-200、Vuzix M100、Sony Eyeglass
   </a>
 </p>
 
+![こどもパソコン IchigoJam]({{ "/img/switchscience.png" | prepend: site.baseurl }})
+
+## スイッチサイエンス エイドステーション
+
+スイッチサイエンス社のサービスで、ハードウェア類がその場で購入・利用可能
+
+<p class="detail-link">
+  <a href="https://www.switch-science.com/info/aidstation/">
+    スイッチサイエンス エイドステーションについて
+  </a>
+</p>
+
+![ペーパークラフト・アイデアシート]({{ "/img/paper_materials.png" | prepend: site.baseurl }})
+
+## ペーパークラフト・アイデアシート
+
+メガネをハックするアイデアを書いたり、実現をサポートするためのシート
+
+<p class="detail-link">
+  <a href="https://github.com/codeforfukui/meganehack/archive/paper_materials.zip">
+    ダウンロード
+  </a>
+</p>
+
 
 # イベント詳細
 
@@ -79,7 +103,7 @@ MOVERIO BT-200、Vuzix M100、Sony Eyeglass
 | 2日目 タイムテーブル | |
 | --- | --- |
 | 10:00 | 開場 |
-| 10:20 - 15:30 | 開会・企画説明　　　　　　　　　　 |
+| 10:20 - 15:30 | 開会・企画説明・自由時間　　　　　 |
 | 15:30 - 15:50 | 成果発表 |
 | 15:50 - 16:00 | 閉会 |
 | 16:00 - | 懇親会 |
