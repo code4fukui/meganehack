@@ -1,3 +1,4 @@
-# meganehack
+# meganehack 印刷関連ファイル
 
-website for megane hackathon
+* ペーパークラフトのPDF
+* アイデアスケッチのPDF
