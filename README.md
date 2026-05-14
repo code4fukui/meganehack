@@ -2,7 +2,7 @@
 
 [
 ![Website](https://img.shields.io/badge/website-live-brightgreen.svg)
-](http://codeforfukui.github.io/meganehack)
+](~~http://codeforfukui.github.io/meganehack~~ *(unavailable)*)
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
 This repository contains the source code for the Megane Hackathon website, a Jekyll-based site for an event focused on hacking glasses and eyewear technology.

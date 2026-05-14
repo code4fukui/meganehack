@@ -2,7 +2,7 @@
 
 [
 ![Website](https://img.shields.io/badge/website-live-brightgreen.svg)
-](http://codeforfukui.github.io/meganehack)
+](~~http://codeforfukui.github.io/meganehack~~ *(unavailable)*)
 
 このリポジトリには、メガネハッカソンのWebサイトのソースコードが含まれています。これは、メガネやアイウェア技術のハックに焦点を当てたイベント用のJekyllベースのサイトです。
 
